@@ -5,25 +5,45 @@ body {
   text-align: center;
   padding: 50px;
 }
-h1 {
-  color: #0078d7;
-}
-p {
-  font-size: 18px;
+
+/* White card container */
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
 }
 
-/* New styling for your project list */
-ul {
-  list-style: none;
-  padding: 0;
+/* Header and text */
+h1 {
+  color: #0078d7;
+  margin-bottom: 10px;
 }
-li {
-  margin: 10px 0;
+
+p {
+  font-size: 18px;
+  margin: 6px 0;
 }
-a {
+
+/* Profile picture */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0078d7;
+  margin-bottom: 20px;
+}
+
+/* Clickable project links */
+.links a {
   color: #0078d7;
   text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
 }
-a:hover {
+
+.links a:hover {
   text-decoration: underline;
 }
