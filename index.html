@@ -4,17 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jasnoor’s Portfolio</title>
+
+    <!-- Elegant Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="https://jasnoor-kaur1501.github.io/Hello-World/" target="_blank">Hello World</a>
-        <a href="#" target="_blank">Coming Soon</a>
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
 
-    <div class="card">
+    <section id="home" class="card">
       <img
         src="https://raw.githubusercontent.com/Jasnoor-Kaur1501/My-Portfolio/main/Passport%20photo.jpeg"
         alt="Jasnoor's photo"
@@ -31,6 +39,33 @@
         <a href="https://jasnoor-kaur1501.github.io/Hello-World/" target="_blank">Hello World</a>
         <a href="#" target="_blank">Coming Soon</a>
       </div>
-    </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects 🚀</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Hello World</h3>
+          <p>My first website using HTML basics. Simple, clean, and live on GitHub Pages.</p>
+          <a href="https://jasnoor-kaur1501.github.io/Hello-World/" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Portfolio Site</h3>
+          <p>This website you’re viewing right now — built step by step from scratch.</p>
+          <a href="#" target="_blank">You’re Here!</a>
+        </div>
+        <div class="project-card">
+          <h3>Coming Soon</h3>
+          <p>More projects will be added as I progress through FreeCodeCamp 🚧</p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <p>Made with 💛 by Jasnoor</p>
+      <p>
+        <a href="https://github.com/Jasnoor-Kaur1501" target="_blank">GitHub</a> | <a href="#">LinkedIn</a>
+      </p>
+    </footer>
   </body>
 </html>
