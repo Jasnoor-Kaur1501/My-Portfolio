@@ -1,65 +1,98 @@
 body {
   margin: 0;
-  height: 100vh;
-  background-color: #f5eee6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Inter', sans-serif;
-  color: #5c4033;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  color: #4a3c31;
+  background-color: #f7f1e8;
+  background-image: url("https://www.transparenttextures.com/patterns/silk.png");
+  background-repeat: repeat;
+  background-size: cover;
+  text-align: center;
 }
 
 .container {
-  text-align: center;
-  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
 }
 
-.brand {
-  font-family: 'Playfair Display', serif;
-  letter-spacing: 3px;
-  font-size: 18px;
-  color: #7a5c4d;
-}
-
-.headline {
-  font-family: 'Playfair Display', serif;
-  font-size: 42px;
-  margin: 20px 0 10px;
-  color: #4a2f24;
-}
-
-.subtext {
-  font-size: 16px;
-  color: #6d5246;
+header {
   margin-bottom: 30px;
 }
 
-.notify-btn {
-  background-color: white;
-  border: none;
-  padding: 12px 30px;
-  border-radius: 25px;
-  font-size: 15px;
-  color: #4a2f24;
-  cursor: pointer;
-  transition: all 0.3s ease;
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid #d4b68a;
+  object-fit: cover;
+  margin-bottom: 15px;
 }
 
-.notify-btn:hover {
-  background-color: #e9ded6;
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 28px;
+  color: #4a3c31;
+  margin: 10px 0;
 }
 
-.socials {
-  margin-top: 30px;
-}
-
-.socials a {
-  margin: 0 10px;
-  color: #4a2f24;
-  text-decoration: none;
+.tagline {
   font-size: 16px;
+  color: #7d6a57;
 }
 
-.socials a:hover {
-  text-decoration: underline;
+.intro,
+.about,
+.projects,
+.contact {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 22px;
+  color: #a47e5b;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.project-card {
+  display: inline-block;
+  background-color: #f1e3d3;
+  color: #4a3c31;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  border: 1px solid #d4b68a;
+}
+
+.project-card:hover {
+  background-color: #e6cfa8;
+  color: #3a2f26;
+}
+
+.contact-links a {
+  margin: 0 10px;
+  color: #a47e5b;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-links a:hover {
+  color: #d4b68a;
 }
