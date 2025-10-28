@@ -3,20 +3,14 @@ body {
   margin: 0;
   font-family: 'Work Sans', sans-serif;
   color: #4b3b2f;
-  background: #f5eee6 url('https://i.ibb.co/z8B3LWr/silk-texture-bg.jpg') no-repeat center center fixed;
+  background-color: #f6f0e8;
+  background-image: url('https://i.ibb.co/dBSJv5m/silk-bg-texture-beige.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-/* Centered container */
-.container {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 60px 20px;
-  background-color: rgba(255, 250, 245, 0.8);
-  border-radius: 14px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-}
 
 /* Profile image */
 .profile-img {
