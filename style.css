@@ -1,154 +1,65 @@
-/* Font and layout */
 body {
-  background: #f5f0e6;
-  color: #4b3621;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
   margin: 0;
-  padding: 0;
-}
-
-/* Navigation Bar */
-header {
-  background: #d9c7b2;
-  padding: 15px 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-nav a {
-  margin: 0 15px;
-  color: #4b3621;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-nav a:hover {
-  color: #8b5e3c;
-}
-
-/* Main Card Section */
-.card {
-  background: #fff8ef;
-  border-radius: 15px;
-  padding: 40px;
-  max-width: 600px;
-  margin: 60px auto;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 20px;
-  border: 3px solid #cbb89c;
-}
-
-h1 {
-  color: #8b5e3c;
-  font-size: 28px;
-  margin-top: 10px;
-}
-
-.name {
-  font-weight: 600;
-  font-size: 22px;
-  color: #4b3621;
-}
-
-.title {
-  font-weight: 400;
-  color: #7a5c42;
-  margin-bottom: 20px;
-}
-
-p {
-  font-size: 16px;
-  color: #5a4634;
-}
-
-/* Links Section */
-.links {
-  margin-top: 20px;
-}
-
-.links a {
-  color: #8b5e3c;
-  margin: 0 10px;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.links a:hover {
-  text-decoration: underline;
-}
-
-/* Project Section */
-.projects {
-  background: #f2e4d5;
-  padding: 50px 0;
-}
-
-.projects h2 {
-  color: #4b3621;
-  font-size: 26px;
-}
-
-.project-grid {
+  height: 100vh;
+  background-color: #f5eee6;
   display: flex;
+  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 25px;
-  margin-top: 20px;
+  font-family: 'Inter', sans-serif;
+  color: #5c4033;
 }
 
-.project-card {
-  background: #fffaf5;
-  padding: 20px;
-  border-radius: 10px;
-  width: 250px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+.container {
+  text-align: center;
+  padding: 30px;
 }
 
-.project-card h3 {
-  color: #8b5e3c;
-  font-size: 20px;
+.brand {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 3px;
+  font-size: 18px;
+  color: #7a5c4d;
 }
 
-.project-card p {
-  font-size: 14px;
-  color: #5a4634;
+.headline {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  margin: 20px 0 10px;
+  color: #4a2f24;
 }
 
-.project-card a {
-  display: inline-block;
-  margin-top: 10px;
-  color: #4b3621;
-  text-decoration: none;
-  font-weight: 500;
+.subtext {
+  font-size: 16px;
+  color: #6d5246;
+  margin-bottom: 30px;
 }
 
-.project-card a:hover {
-  color: #8b5e3c;
-}
-
-/* Footer */
-footer {
-  background: #d9c7b2;
-  color: #4b3621;
-  padding: 20px;
-  margin-top: 40px;
+.notify-btn {
+  background-color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
   font-size: 15px;
+  color: #4a2f24;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-footer a {
-  color: #4b3621;
+.notify-btn:hover {
+  background-color: #e9ded6;
+}
+
+.socials {
+  margin-top: 30px;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: #4a2f24;
   text-decoration: none;
-  font-weight: 500;
+  font-size: 16px;
 }
 
-footer a:hover {
-  color: #8b5e3c;
+.socials a:hover {
+  text-decoration: underline;
 }
