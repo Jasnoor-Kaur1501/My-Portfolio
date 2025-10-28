@@ -1,0 +1,112 @@
+/* Fonts and basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #4a3c2f;
+  background-color: #f6f1eb;
+  background-image: url('https://www.transparenttextures.com/patterns/silk.png');
+  background-repeat: repeat;
+  background-size: cover;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.container {
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.4rem;
+  color: #7b5e43;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #6c584c;
+}
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 2px solid #c4a484;
+}
+
+section {
+  margin: 35px 0;
+}
+
+h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #7b5e43;
+  border-bottom: 1px solid #c4a484;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #4a3c2f;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.project-buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #7b5e43;
+  padding: 12px 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 1px solid #c4a484;
+}
+
+.btn:hover {
+  background-color: #e8d7c1;
+  color: #3b2f24;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+.contact a {
+  color: #7b5e43;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.contact a:hover {
+  color: #3b2f24;
+}
