@@ -1,112 +1,97 @@
-/* Silk beige theme */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* Fonts: Cardo for headings, Work Sans for body */
 body {
-  font-family: "Inter", sans-serif;
-  color: #4a3c2f;
-  background-color: #f6f1eb; /* soft beige */
-  background-image: url("https://www.transparenttextures.com/patterns/silk.png");
-  background-repeat: repeat;
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  color: #4b3b2f;
+  background: #f5eee6 url('https://i.ibb.co/z8B3LWr/silk-texture-bg.jpg') no-repeat center center fixed;
   background-size: cover;
-  text-align: center;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
 }
 
+/* Centered container */
 .container {
+  text-align: center;
   max-width: 800px;
-  background-color: rgba(255, 255, 255, 0.65);
-  border-radius: 20px;
-  padding: 40px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 60px 20px;
+  background-color: rgba(255, 250, 245, 0.8);
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
-header h1 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 2.4rem;
-  color: #7b5e43;
-}
-
-.subtitle {
-  font-size: 1.1rem;
-  margin-bottom: 20px;
-  color: #6c584c;
-}
-
-.profile-photo {
-  width: 100px;
-  height: 100px;
+/* Profile image */
+.profile-img {
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 15px;
-  border: 2px solid #c4a484;
+  border: 3px solid #d4b996;
+  margin-bottom: 20px;
 }
 
-section {
-  margin: 35px 0;
+/* Headings */
+h1 {
+  font-family: 'Cardo', serif;
+  font-size: 2.4rem;
+  color: #7a5c3d;
+  margin-bottom: 5px;
 }
 
 h2 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.6rem;
-  margin-bottom: 10px;
-  color: #7b5e43;
-  border-bottom: 1px solid #c4a484;
+  font-weight: 500;
+  color: #7b6a58;
+  margin-top: 0;
+}
+
+h3 {
+  font-family: 'Cardo', serif;
+  color: #7a5c3d;
+  margin-top: 40px;
+  border-bottom: 1px solid #d4b996;
   display: inline-block;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
 }
 
-p {
-  font-size: 1rem;
+/* Text blocks */
+.intro, .about p {
   line-height: 1.6;
-  color: #4a3c2f;
-  max-width: 700px;
-  margin: 0 auto;
+  font-size: 1.05rem;
+  margin: 10px 0;
 }
 
-.project-buttons {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  align-items: center;
+/* Buttons */
+.buttons {
+  margin-top: 15px;
 }
 
 .btn {
-  background-color: rgba(255, 255, 255, 0.85);
-  color: #7b5e43;
-  padding: 12px 40px;
-  border-radius: 30px;
+  display: inline-block;
+  margin: 8px;
+  padding: 10px 20px;
+  color: #4b3b2f;
   text-decoration: none;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  border: 1px solid #c4a484;
+  border: 1.5px solid #d4b996;
+  border-radius: 30px;
+  transition: 0.3s ease;
+  background-color: rgba(255, 250, 245, 0.7);
 }
 
 .btn:hover {
-  background-color: #e8d7c1;
-  color: #3b2f24;
+  background-color: #e9ddc7;
+  color: #3b2f26;
 }
 
+/* Footer */
 footer {
   margin-top: 40px;
 }
 
 .contact a {
-  color: #7b5e43;
+  margin: 0 12px;
   text-decoration: none;
-  margin: 0 10px;
+  color: #7a5c3d;
   font-weight: 500;
-  transition: color 0.3s ease;
 }
 
 .contact a:hover {
-  color: #3b2f24;
+  text-decoration: underline;
 }
