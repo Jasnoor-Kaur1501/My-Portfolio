@@ -1,10 +1,9 @@
-/* --- General Styles --- */
 body {
   margin: 0;
   font-family: 'Work Sans', sans-serif;
   color: #4b3b2f;
   background-color: #f6f0e8;
-  background-image: url('https://i.ibb.co/vs5kYhZ/silk-texture-bg.jpg');
+  background-image: url('https://i.postimg.cc/vH0F1rC3/silk-texture-beige.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -12,17 +11,15 @@ body {
   text-align: center;
 }
 
-/* --- Container --- */
 .container {
   max-width: 700px;
   margin: 80px auto;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.78);
   border-radius: 25px;
   padding: 50px 40px;
-  box-shadow: 0 0 20px rgba(190, 160, 120, 0.2);
+  box-shadow: 0 0 20px rgba(190, 160, 120, 0.25);
 }
 
-/* --- Header --- */
 header {
   margin-bottom: 30px;
 }
@@ -50,7 +47,6 @@ h2 {
   margin-top: 5px;
 }
 
-/* --- Sections --- */
 h3 {
   font-family: 'Playfair Display', serif;
   color: #4b3b2f;
@@ -67,7 +63,6 @@ p {
   font-size: 1em;
 }
 
-/* --- Buttons --- */
 .project-buttons {
   display: flex;
   justify-content: center;
@@ -91,7 +86,6 @@ p {
   color: #fff;
 }
 
-/* --- Footer --- */
 footer {
   margin-top: 40px;
 }
