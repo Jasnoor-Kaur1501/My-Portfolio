@@ -1,40 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Nunito:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Manrope:wght@300;400&display=swap');
 
 body {
-  background-color: #f5efe6;
-  background-image: url("https://i.ibb.co/3r6vYpw/subtle-silk-texture.png");
+  background-color: #f8f3ed;
+  background-image: url("https://i.ibb.co/2Fwhqg5/beige-silk-texture.jpg");
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   color: #4b3d33;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Manrope', sans-serif;
   text-align: center;
   padding: 50px;
   margin: 0;
 }
 
 .card {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.85);
+  padding: 50px 40px;
+  border-radius: 25px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
 }
 
 .profile-pic {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 20px;
-  border: 3px solid #d1bfa7;
+  margin-bottom: 25px;
+  border: 3px solid #d6bfa5;
 }
 
 h1 {
   font-family: 'Cormorant Garamond', serif;
   color: #7a5c42;
-  font-size: 32px;
-  margin-bottom: 10px;
+  font-size: 36px;
+  margin-bottom: 5px;
 }
 
 h2 {
@@ -42,45 +43,45 @@ h2 {
   color: #7a5c42;
   font-size: 24px;
   margin-top: 40px;
-  border-bottom: 1px solid #d1bfa7;
+  border-bottom: 1px solid #d6bfa5;
   display: inline-block;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
+}
+
+h3 {
+  color: #6a4a35;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 p {
   font-size: 18px;
   color: #4b3d33;
+  line-height: 1.6;
   margin: 10px 0;
 }
 
 a {
   color: #b68d67;
   text-decoration: none;
-  transition: color 0.3s ease;
+  font-weight: 500;
+  transition: all 0.3s ease;
 }
 
 a:hover {
   color: #8c6239;
 }
 
-.projects {
-  margin-top: 20px;
-}
-
 .project-card {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
-  padding: 15px;
+  padding: 12px;
   margin: 10px auto;
   width: 80%;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
 }
 
 .links {
-  margin-top: 20px;
-}
-
-.links a {
-  margin: 0 10px;
-  font-weight: bold;
+  margin-top: 25px;
+  font-size: 17px;
 }
