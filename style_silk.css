@@ -1,91 +1,109 @@
-/* Fonts: Cardo for headings, Work Sans for body */
+/* --- General Styles --- */
 body {
   margin: 0;
   font-family: 'Work Sans', sans-serif;
   color: #4b3b2f;
   background-color: #f6f0e8;
-  background-image: url('https://i.ibb.co/dBSJv5m/silk-bg-texture-beige.jpg');
+  background-image: url('https://i.ibb.co/vs5kYhZ/silk-texture-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  text-align: center;
 }
 
+/* --- Container --- */
+.container {
+  max-width: 700px;
+  margin: 80px auto;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 25px;
+  padding: 50px 40px;
+  box-shadow: 0 0 20px rgba(190, 160, 120, 0.2);
+}
 
-/* Profile image */
-.profile-img {
-  width: 130px;
-  height: 130px;
+/* --- Header --- */
+header {
+  margin-bottom: 30px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #d4b996;
-  margin-bottom: 20px;
+  border: 3px solid #c2a177;
+  margin-bottom: 15px;
 }
 
-/* Headings */
 h1 {
-  font-family: 'Cardo', serif;
-  font-size: 2.4rem;
-  color: #7a5c3d;
-  margin-bottom: 5px;
+  font-family: 'Playfair Display', serif;
+  color: #4b3b2f;
+  font-size: 2.2em;
+  margin: 0;
 }
 
 h2 {
+  font-size: 1.1em;
   font-weight: 500;
-  color: #7b6a58;
-  margin-top: 0;
+  color: #7d6652;
+  margin-top: 5px;
 }
 
+/* --- Sections --- */
 h3 {
-  font-family: 'Cardo', serif;
-  color: #7a5c3d;
-  margin-top: 40px;
-  border-bottom: 1px solid #d4b996;
+  font-family: 'Playfair Display', serif;
+  color: #4b3b2f;
+  border-bottom: 1px solid #c2a177;
   display: inline-block;
   padding-bottom: 3px;
+  margin-bottom: 15px;
 }
 
-/* Text blocks */
-.intro, .about p {
+p {
   line-height: 1.6;
-  font-size: 1.05rem;
-  margin: 10px 0;
+  color: #3d2f25;
+  margin-bottom: 30px;
+  font-size: 1em;
 }
 
-/* Buttons */
-.buttons {
-  margin-top: 15px;
+/* --- Buttons --- */
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .btn {
-  display: inline-block;
-  margin: 8px;
-  padding: 10px 20px;
+  background-color: #f6f0e8;
+  border: 2px solid #c2a177;
   color: #4b3b2f;
+  padding: 12px 28px;
+  border-radius: 25px;
   text-decoration: none;
-  border: 1.5px solid #d4b996;
-  border-radius: 30px;
-  transition: 0.3s ease;
-  background-color: rgba(255, 250, 245, 0.7);
+  transition: all 0.3s ease;
+  font-weight: 500;
 }
 
 .btn:hover {
-  background-color: #e9ddc7;
-  color: #3b2f26;
+  background-color: #c2a177;
+  color: #fff;
 }
 
-/* Footer */
+/* --- Footer --- */
 footer {
   margin-top: 40px;
 }
 
-.contact a {
-  margin: 0 12px;
+footer a {
+  color: #4b3b2f;
   text-decoration: none;
-  color: #7a5c3d;
+  margin: 0 15px;
+  transition: color 0.3s ease;
   font-weight: 500;
 }
 
-.contact a:hover {
-  text-decoration: underline;
+footer a:hover {
+  color: #c2a177;
 }
