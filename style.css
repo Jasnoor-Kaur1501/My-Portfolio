@@ -1,65 +1,86 @@
-/* ========== General Layout ========== */
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Poppins", sans-serif;
-  color: #333;
-  background-image: url("silk-texture.png");
+  background: url("silk-texture.png") no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  backdrop-filter: blur(2px);
-}
-
-/* ========== Header ========== */
-header {
-  text-align: center;
-  padding: 2rem 1rem;
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(5px);
-}
-
-header h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
   color: #222;
-  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 50px 20px;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* ========== Card Sections ========== */
+/* Card Styling */
 .card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  width: 90%;
   max-width: 700px;
-  margin: 2rem auto;
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 15px;
-  padding: 2rem;
   text-align: center;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
+  padding: 40px;
+  transition: transform 0.3s ease;
 }
 
-/* ========== Profile Image ========== */
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Profile Image */
 .profile-img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 1rem;
-  border: 3px solid #f1f1f1;
+  margin-bottom: 20px;
 }
 
-/* ========== Footer ========== */
-footer {
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
+/* Headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Text */
+p {
+  font-size: 1rem;
+  line-height: 1.6;
   color: #444;
-  background: rgba(255, 255, 255, 0.6);
+  margin-bottom: 10px;
+}
+
+/* Links */
+.link {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  border-bottom: 1px solid #999;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.link:hover {
+  color: #000;
+  border-color: #000;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #555;
 }
