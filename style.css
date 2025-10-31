@@ -160,31 +160,26 @@ a:hover {
   font-weight: 500;
   transition: color 0.3s ease;
 }
-/* === Scroll to Top Button === */
+/* === Scroll to Top Heart Button === */
 #scrollTopBtn {
   display: none;
   position: fixed;
   bottom: 25px;
-  right: 25px;
+  left: 25px; /* moved to bottom-left */
   z-index: 99;
   background-color: #b7955f;
   color: white;
   border: none;
   border-radius: 50%;
   padding: 12px 15px;
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease;
+  line-height: 1;
 }
 
 #scrollTopBtn:hover {
   background-color: #8b6f3f;
-  transform: translateY(-3px);
+  transform: scale(1.1);
 }
-
-
-.project-card a:hover {
-  color: #8b6f3f;
-}
-
