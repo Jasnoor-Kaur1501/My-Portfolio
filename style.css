@@ -165,7 +165,7 @@ a:hover {
   display: none;
   position: fixed;
   bottom: 25px;
-  left: 25px; /* moved to bottom-left */
+  left: 25px;
   z-index: 99;
   background-color: #b7955f;
   color: white;
@@ -177,9 +177,24 @@ a:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease;
   line-height: 1;
+  animation: heartbeat 2s ease-in-out infinite;
 }
 
 #scrollTopBtn:hover {
   background-color: #8b6f3f;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
+
+/* === Heartbeat Animation === */
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.15);
+  }
+  60% {
+    transform: scale(0.95);
+  }
+}
+
