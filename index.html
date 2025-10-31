@@ -77,6 +77,19 @@
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 </script>
+<script>
+  const fadeElements = document.querySelectorAll(".card");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+    });
+  }, { threshold: 0.2 });
+
+  fadeElements.forEach(el => observer.observe(el));
+</script>
 
 </body>
   <script>
