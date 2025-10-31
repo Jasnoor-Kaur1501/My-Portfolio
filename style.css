@@ -94,6 +94,35 @@ a:hover {
   opacity: 1;
   transform: translateY(0);
 }
+/* === About & Skills Section === */
+.about-section {
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.skill-card {
+  background: linear-gradient(135deg, #fdf5e6, #f8e9cf);
+  color: #5c4520;
+  padding: 12px 20px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(183, 149, 95, 0.2);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  background: linear-gradient(135deg, #f8e9cf, #fdf5e6);
+  box-shadow: 0 6px 12px rgba(183, 149, 95, 0.3);
+}
+
 
 
 a:hover {
