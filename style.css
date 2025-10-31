@@ -64,6 +64,38 @@ a {
   transition: color 0.3s ease;
 }
 
+/* === Interactive Additions === */
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hover glow for links */
+a:hover {
+  color: #a57c47;
+  text-shadow: 0 0 6px rgba(165, 124, 71, 0.5);
+  transition: all 0.3s ease;
+}
+
+/* Subtle zoom on profile photo hover */
+.profile-photo:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
+}
+/* Fade-in scroll animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 a:hover {
   color: #8b6f3f;
 }
