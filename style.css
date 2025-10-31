@@ -227,5 +227,30 @@ a:hover {
   0% { background-position: -200px 0; }
   100% { background-position: 200px 0; }
 }
+.card img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+/* === Fix for profile photo overflow on mobile === */
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Ensure cards clip any overflowing child elements */
+.card {
+  overflow: hidden;
+}
 
 
