@@ -260,5 +260,41 @@ a:hover {
 .card {
   overflow: hidden;
 }
+/* === Productivity Room card soft hover effect === */
+.project-card h4 {
+  position: relative;
+  color: #b27cb8; /* muted mauve that fits beige background */
+}
+
+.project-card h4::after {
+  content: "✨";
+  position: absolute;
+  right: -18px;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.4s ease;
+}
+
+.project-card:hover h4::after {
+  opacity: 1;
+  transform: scale(1.2) rotate(10deg);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(178, 124, 184, 0.25);
+}
+
+.project-card a {
+  color: #b27cb8;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.project-card a:hover {
+  color: #a469af;
+  text-shadow: 0 0 6px rgba(178, 124, 184, 0.4);
+}
+
 
 
