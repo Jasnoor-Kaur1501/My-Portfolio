@@ -6,115 +6,72 @@
   <title>Jasnoor Kaur | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <div class="container">
+    <!-- Intro Card -->
     <section class="card">
       <img src="Photo.jpg" alt="Jasnoor Kaur" class="profile-photo" />
       <h1>Jasnoor Kaur</h1>
       <h2>Web Developer in Progress</h2>
       <p class="intro">
         I’m a budding web developer learning HTML, CSS, and GitHub. 
-        This is my first portfolio- clean, simple, and focused on elegant design.
+        This is my first portfolio—clean, simple, and focused on elegant design.
       </p>
     </section>
-<div class="divider"></div>
+
+    <div class="divider"></div>
+
+    <!-- Projects Summary -->
     <section class="card">
       <h3>Projects</h3>
       <p><strong>Portfolio Page:</strong> My first project, built to learn structure and style.</p>
       <p><strong>Coming Soon:</strong> More projects as I grow in front-end development.</p>
     </section>
-<div class="divider"></div>
+
+    <div class="divider"></div>
+
+    <!-- Contact -->
     <section class="card">
       <h3>Contact</h3>
-      <p>Let’s connect on <a href="https://www.linkedin.com/in/jasnoor-kaur-70290832b/" target="_blank">LinkedIn</a> or check out my <a href="https://github.com/Jasnoor-Kaur1501" target="_blank">GitHub</a>.</p>
+      <p>
+        Let’s connect on 
+        <a href="https://www.linkedin.com/in/jasnoor-kaur-70290832b/" target="_blank">LinkedIn</a>
+        or check out my 
+        <a href="https://github.com/Jasnoor-Kaur1501" target="_blank">GitHub</a>.
+      </p>
     </section>
+
     <div class="divider"></div>
+
+    <!-- About Me -->
     <section class="card about-section">
-  <h3>About Me</h3>
-  <p>
-    I’m a passionate learner exploring web development, currently focused on HTML, CSS, and GitHub. 
-    I enjoy creating clean, user-friendly interfaces and improving a little every day.
-  </p>
+      <h3>About Me</h3>
+      <p>
+        I’m a passionate learner exploring web development, currently focused on HTML, CSS, and GitHub. 
+        I enjoy creating clean, user-friendly interfaces and improving a little every day.
+      </p>
 
-  <div class="skills">
-    <div class="skill-card">HTML</div>
-    <div class="skill-card">CSS</div>
-    <div class="skill-card">Git & GitHub</div>
-    <div class="skill-card">Responsive Design</div>
-  </div>
-</section>
+      <div class="skills">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">Git & GitHub</div>
+        <div class="skill-card">Responsive Design</div>
+      </div>
+    </section>
+
     <div class="divider"></div>
 
-<section class="card projects-gallery">
-  <h3>My Work</h3>
-  <div class="gallery">
-    <div class="project-card">
-      <h4>Portfolio Page</h4>
-      <p>My first HTML/CSS project- clean, simple, and elegant.</p>
-      <a href="#" target="_blank">View Project</a>
-    </div>
+    <!-- My Work -->
+    <section class="card projects-gallery">
+      <h3>My Work</h3>
+      <div class="gallery">
 
-    <div class="project-card fade-in">
-  <h4>✨ Productivity Room ✨</h4>
-  <p>A pastel productivity space with affirmations, sparkles, and a focus timer built in soft pinks and blues.</p>
-  <a href="https://jasnoor-kaur1501.github.io/My-Portfolio/#" target="_blank">View Project</a>
-</div>
+        <!-- Portfolio Card -->
+        <div class="project-card fade-in">
+          <h4>Portfolio Page</h4>
+          <p>My first HTML/CSS project—clean, simple, and elegant.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
 
-
-    <div class="project-card">
-      <h4>Coming Soon</h4>
-      <p>More creative web projects will appear here soon!</p>
-      <a href="#">Stay Tuned</a>
-    </div>
-  </div>
-</section>
-<div class="divider"></div>
-  </div>
-  <button id="scrollTopBtn" title="Back to top">♡</button>
-
-<script>
-  const scrollBtn = document.getElementById("scrollTopBtn");
-
-  window.onscroll = function() {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-      scrollBtn.style.display = "block";
-    } else {
-      scrollBtn.style.display = "none";
-    }
-  };
-
-  scrollBtn.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
-</script>
-<script>
-  const fadeElements = document.querySelectorAll(".card");
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-      }
-    });
-  }, { threshold: 0.2 });
-
-  fadeElements.forEach(el => observer.observe(el));
-</script>
-
-</body>
-  <script>
-  const fadeEls = document.querySelectorAll('.card');
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-      }
-    });
-  });
-
-  fadeEls.forEach(el => {
-    el.classList.add('fade-in');
-    observer.observe(el);
-  });
-</script>
-</html>
+        <!-- Productivity Room -->
