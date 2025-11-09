@@ -263,7 +263,7 @@ a:hover {
 /* === Productivity Room card soft hover effect === */
 .project-card h4 {
   position: relative;
-  color: #b27cb8; /* muted mauve that fits beige background */
+  color: #7b5b36; /* muted mauve that fits beige background */
 }
 
 .project-card h4::after {
@@ -286,12 +286,12 @@ a:hover {
 }
 
 .project-card a {
-  color: #b27cb8;
+  color: #7b5b36;
   font-weight: 600;
   transition: all 0.3s ease;
 }
 
 .project-card a:hover {
-  color: #b27cb8;
+  color: #7b5b36;
   text-shadow: 0 0 6px rgba(178, 124, 184, 0.4);
 }
