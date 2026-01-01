@@ -18,5 +18,7 @@ This repository represents my learning journey through HTML, CSS, and JavaScript
 - Study Tracker
 - Finance Tracker
 - Decision Journal
+- Deliberate
+- ProductivityRoom
 
 More projects will be added as I progress.
